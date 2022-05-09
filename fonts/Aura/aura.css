@@ -1,0 +1,6 @@
+@font-face {font-family: "Aura";
+    src: url("1be40df66e19fea09f0f8e052864fcbe.eot"); /* IE9*/
+    src: url("1be40df66e19fea09f0f8e052864fcbe.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("1be40df66e19fea09f0f8e052864fcbe.woff2") format("woff2"), /* chrome、firefox */
+    url("1be40df66e19fea09f0f8e052864fcbe.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}

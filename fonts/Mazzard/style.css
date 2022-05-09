@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Mazzard';
+    src: local('Mazzard L Regular'), local('Mazzard-L-Regular'),
+        url('MazzardL-Regular.woff2') format('woff2'),
+        url('MazzardL-Regular.woff') format('woff'),
+        url('MazzardL-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

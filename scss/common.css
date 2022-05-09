@@ -1,0 +1,371 @@
+html body {
+  min-width: 320px;
+  max-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  background: url("/assets/background.png") no-repeat fixed center bottom;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  overflow: auto;
+}
+html body header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+html body header .logo {
+  padding: 4px 4px 0;
+}
+html body header .menu {
+  font-family: "Mazzard", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0 220px;
+}
+html body header .menu .menu__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+html body header .menu .menu__list .menu__item {
+  list-style: none;
+  padding: 0;
+  margin: 0 30px 0 0;
+}
+html body header .menu .menu__list .menu__item:last-child {
+  margin: 0;
+}
+html body header .menu .menu__list .menu__item a {
+  color: #6d7075;
+  text-decoration: none;
+}
+html body header .menu .menu__list .menu__item a:hover {
+  color: #ffffff;
+  transition: 0.4s;
+}
+html body header .menu .menu__list .menu__item a span {
+  white-space: nowrap;
+}
+html body header .menu .menu__list .menu__item-active a {
+  color: #ffffff;
+}
+html body header .burger-menu #burger-menu__img {
+  display: none;
+}
+html body header .burger-menu #burger-menu__background {
+  font-family: "Mazzard", sans-serif;
+  display: none;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 237px;
+  min-width: 320px;
+  background-color: #020305;
+  padding-top: 24px;
+  z-index: 5;
+  opacity: 0;
+  transition: 0.5s;
+  animation: show 0.5s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+}
+@keyframes show {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+html body header .burger-menu #burger-menu__background #cross {
+  width: 34px;
+  height: 34px;
+  margin-left: 18px;
+}
+html body header .burger-menu #burger-menu__background .burger-menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  padding-right: 53px;
+}
+html body header .burger-menu #burger-menu__background .burger-menu-wrapper .burger-menu__list {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 32px 0 0 0;
+  font-size: 16px;
+}
+html body header .burger-menu #burger-menu__background .burger-menu-wrapper .burger-menu__list .burger-menu__item {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+html body header .burger-menu #burger-menu__background .burger-menu-wrapper .burger-menu__list .burger-menu__item a {
+  color: #6d7075;
+  text-decoration: none;
+}
+html body header .burger-menu #burger-menu__background .burger-menu-wrapper .burger-menu__list .burger-menu__item a span {
+  white-space: nowrap;
+}
+html body header .burger-menu #burger-menu__background .burger-menu-wrapper .burger-menu__list .burger-menu__item-active a {
+  color: #ffffff;
+}
+html body header .social {
+  white-space: nowrap;
+  padding: 4px 4px 0;
+}
+html body header .social .social__item {
+  margin-right: 30px;
+  cursor: pointer;
+}
+html body header .social .social__item:last-child {
+  margin: 0;
+}
+html body header .deep-mine {
+  display: none;
+}
+html body main {
+  font-family: "Aura", sans-serif;
+  font-weight: 400;
+  min-width: 1220px;
+  max-width: 100vw;
+  margin-top: 152px;
+}
+html body main .timer {
+  display: flex;
+  flex-direction: row;
+  font-size: 28px;
+  color: #75787a;
+}
+html body main .timer .timer__text {
+  margin-right: 10px;
+}
+html body main .timer .timer__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+html body main .timer .timer__item {
+  color: #54ca91;
+}
+html body main .timer .timer__item::after {
+  content: attr(data-title);
+}
+html body main .header {
+  margin-bottom: 32px;
+  position: relative;
+}
+html body main .header .blue-line {
+  position: absolute;
+  top: -60px;
+  left: 282px;
+}
+html body main .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  font-family: "Mazzard", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 30px;
+}
+html body main .info .eyes {
+  margin: 8px 32px 0 0;
+}
+html body main .info .red-line {
+  position: absolute;
+  left: 650px;
+  top: 20px;
+}
+html body main .actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 61px;
+}
+html body main .actions .adopt-wrapper {
+  position: relative;
+  width: 254px;
+  height: 70px;
+  margin-right: 25px;
+  border: 1px solid #d2d9df;
+  border-radius: 5px;
+  filter: drop-shadow(0 0 0.8rem #083f65);
+  background: radial-gradient(#05314c, #094268);
+}
+html body main .actions .adopt-wrapper .adopt {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 254px;
+  height: 72px;
+  font-family: "Aura", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px 0 5px 5px;
+  clip-path: polygon(88% 0, 100% 40%, 100% 100%, 0 100%, 0 0);
+  background: #000000;
+  cursor: pointer;
+}
+html body main .actions .discord, html body main .actions .twitter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Aura", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  cursor: pointer;
+}
+html body main .actions .discord img, html body main .actions .twitter img {
+  margin-right: 15px;
+}
+html body main .actions .discord {
+  margin-right: 25px;
+  background: linear-gradient(to right, #1a536f, #258abe);
+  width: 211px;
+  height: 72px;
+}
+html body main .actions .discord img {
+  width: 28px;
+  height: 20px;
+}
+html body main .actions .twitter {
+  background: linear-gradient(#2582b3, #499acb);
+  width: 196px;
+  height: 72px;
+}
+html body main .actions .twitter img {
+  width: 24px;
+  height: 20px;
+}
+html body main .eagle-container {
+  overflow: hidden;
+  position: absolute;
+  top: -20%;
+  right: 0;
+  width: 640px;
+  height: 970px;
+  z-index: -4;
+  padding: 50px 0 0 20px;
+  box-sizing: border-box;
+}
+html body main .eagle-container .eagle {
+  max-width: 110%;
+}
+html body footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-width: 1220px;
+}
+html body footer .footer-social {
+  display: none;
+  margin-bottom: 20px;
+}
+html body footer .footer-deep-mine {
+  width: 84px;
+  height: 81px;
+  margin-top: 100px;
+}
+html body .black-gradient-upper {
+  position: absolute;
+  width: 100vw;
+  height: 250px;
+  background-image: linear-gradient(to bottom, #000000, rgba(255, 255, 255, 0));
+  opacity: 0.8;
+  top: 0;
+  z-index: -2;
+}
+html body .black-gradient {
+  position: absolute;
+  width: 100vw;
+  min-height: 215px;
+  background-image: linear-gradient(to top, #000000, rgba(255, 255, 255, 0));
+  opacity: 0.8;
+  z-index: -2;
+  bottom: 0;
+}
+html body .light-lines-container {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+html body .light-lines-container .big-red-line {
+  position: absolute;
+  right: 0;
+  top: 130px;
+  z-index: 0;
+}
+html body .light-lines-container .big-blue-line {
+  position: absolute;
+  top: 110px;
+  right: 245px;
+  z-index: 0;
+}
+html body .light-circles-container {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+}
+html body .light-circles-container .red-circle {
+  position: absolute;
+  right: -200px;
+  min-height: 100vh;
+  z-index: -3;
+}
+html body .light-circles-container .blue-circle {
+  position: absolute;
+  left: -650px;
+  top: -600px;
+  z-index: 1;
+}
+html body .light-circles-container .blue-ellipse {
+  position: absolute;
+  right: 50px;
+  top: -150px;
+  width: 944px;
+  height: 935px;
+  z-index: -4;
+}
+html body .tooltip {
+  position: fixed;
+  top: 615px;
+  left: 535px;
+  width: 412px;
+  height: 59px;
+  font-family: "Mazzard", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 60px;
+  color: #000000;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+/*# sourceMappingURL=common.css.map */

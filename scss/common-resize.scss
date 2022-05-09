@@ -1,0 +1,498 @@
+@import "./variables";
+
+@media (max-width: breakpoint(xl-end)) and (min-width: breakpoint(lg-start)) {
+  html body {
+
+    header {
+      .menu {
+        margin: 0 68px;
+      }
+    }
+
+    main {
+      min-width: 916px;
+
+      .timer {
+        font-size: 24px;
+      }
+
+      .header {
+        font-size: 100px;
+
+        .petobots {
+          width: 493px;
+          height: 78px;
+        }
+
+        .blue-line {
+          top: -80px;
+          left: 170px;
+        }
+
+      }
+
+      .info {
+        .red-line {
+          left: 490px;
+          top: 90px;
+        }
+      }
+
+      .actions {
+        .adopt-wrapper {
+          width: 205px;
+          height: 58px;
+          margin-right: 20px;
+
+          .adopt {
+            font-size: 16px;
+            width: 205px;
+            height: 58px;
+          }
+        }
+
+        .discord, .twitter {
+          font-size: 16px;
+        }
+
+        .discord {
+          margin-right: 20px;
+          width: 170px;
+          height: 58px;
+
+          img {
+            width: 23px;
+            height: 16px;
+          }
+        }
+
+        .twitter {
+          width: 158px;
+          height: 58px;
+
+          img {
+            width: 19px;
+            height: 16px;
+          }
+        }
+      }
+
+      .eagle-container {
+        top: -100px;
+        right: 0;
+        width: 380px;
+        height: 850px;
+        padding: 0 0 50px 0;
+
+        .eagle {
+          max-width: 165%;
+        }
+      }
+    }
+
+    footer {
+      min-width: 916px;
+
+      .footer-deep-mine {
+        width: 80px;
+        height: 77px;
+        margin-top: 38px;
+      }
+    }
+
+    .light-circles-container {
+      .blue-ellipse {
+        right: -180px;
+        top: -100px;
+      }
+    }
+
+    .light-lines-container {
+      .big-red-line {
+        position: absolute;
+        right: -30px;
+        top: 190px;
+      }
+
+      .big-blue-line {
+        top: 110px;
+        right: 245px;
+      }
+    }
+  }
+}
+
+@media (max-width: breakpoint(md-end)) and (min-width: breakpoint(sm-end)) {
+  html body {
+    header {
+      flex-direction: column;
+      margin-top: 40px;
+
+      .logo {
+        padding: 4px;
+
+        img {
+          min-width: 208px;
+        }
+      }
+
+      .menu {
+        margin: 33px 0 0 0;
+      }
+
+      .social {
+        display: none;
+      }
+    }
+
+    main {
+      min-width: 600px;
+
+      .timer {
+        font-size: 20px;
+      }
+
+      .header {
+        .petobots {
+          width: 395px;
+          height: 63px;
+        }
+
+        .blue-line {
+          top: -80px;
+          left: 110px;
+        }
+
+      }
+
+      .info {
+        font-size: 16px;
+
+        .red-line {
+          left: 365px;
+          top: 210px;
+        }
+      }
+
+      .actions {
+        margin-top: 186px;
+
+        .adopt-wrapper {
+          width: 216px;
+          height: 60px;
+          margin-right: 21px;
+
+          .adopt {
+            font-size: 17px;
+            width: 218px;
+            height: 62px;
+          }
+        }
+
+        .discord, .twitter {
+          font-size: 17px;
+        }
+
+        .discord {
+          background: rgba(255, 255, 255, 0.1);
+          backdrop-filter: blur(10px);
+          margin-right: 21px;
+          width: 182px;
+          height: 62px;
+
+          img {
+            width: 23px;
+            height: 16px;
+          }
+        }
+
+        .twitter {
+          background: rgba(255, 255, 255, 0.1);
+          backdrop-filter: blur(10px);
+          width: 169px;
+          height: 62px;
+
+          img {
+            width: 19px;
+            height: 16px;
+          }
+        }
+      }
+
+      .eagle-container {
+        overflow: hidden;
+        top: -50px;
+        right: 0;
+        width: 230px;
+        height: 900px;
+        padding: 0 0 0 0;
+        box-sizing: border-box;
+
+
+        .eagle {
+          max-width: 300%;
+        }
+      }
+
+
+    }
+
+    footer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: 600px;
+
+      .footer-social {
+        display: block;
+        white-space: nowrap;
+        padding: 4px 4px 0;
+
+        .social__item {
+          margin-right: 30px;
+          cursor: pointer;
+
+          &:last-child {
+            margin: 0;
+          }
+        }
+      }
+
+      .footer-deep-mine {
+        width: 84px;
+        height: 81px;
+        margin: 62px 0 32px 0;
+      }
+    }
+
+    .light-circles-container {
+      .blue-ellipse {
+        right: -400px;
+        top: -150px;
+      }
+
+      .red-circle {
+        right: -500px;
+      }
+
+      .blue-circle {
+        display: none;
+      }
+    }
+
+    .light-lines-container {
+      .big-red-line {
+        position: absolute;
+        right: -110px;
+        top: 220px;
+      }
+
+      .big-blue-line {
+        top: 170px;
+        right: -200px;
+      }
+    }
+  }
+}
+
+@media (max-width: breakpoint(sm-end)) and (min-width: breakpoint(xs-start)) {
+  html body {
+    header {
+      flex-direction: row;
+      margin-top: 21px;
+
+      .logo {
+        order: 2;
+        padding: 4px 4px 0;
+        margin: 0 50px;
+
+        img {
+          max-width: 107px;
+        }
+
+      }
+
+      .menu {
+        order: 1;
+        margin: 0;
+
+        .menu__list {
+          display: none;
+        }
+
+      }
+
+      .burger-menu {
+        #burger-menu__img {
+          display: block;
+        }
+      }
+
+      .social {
+        display: none;
+      }
+
+      .deep-mine {
+        order: 3;
+        display: block;
+      }
+    }
+
+    main {
+      min-width: 296px;
+      margin-top: 93px;
+
+      .timer {
+        font-size: 14px;
+        min-width: 305px;
+      }
+
+      .header {
+        font-size: 60px;
+        margin-bottom: 210px;
+
+        .petobots {
+          width: 296px;
+          height: 47px;
+        }
+
+        .blue-line {
+          top: -55px;
+          left: -50px;
+        }
+
+      }
+
+      .info {
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        line-height: 20px;
+
+        .eyes {
+          display: none;
+        }
+
+        .info__text {
+          text-align: center;
+        }
+
+        .red-line {
+          left: 225px;
+          top: 140px;
+          width: 80px;
+        }
+      }
+
+      .actions {
+        justify-content: center;
+        align-items: center;
+        margin-top: 32px;
+
+        .adopt-wrapper {
+          width: 171px;
+          height: 47px;
+          margin-right: 0;
+
+          .adopt {
+            font-size: 16px;
+            width: 173px;
+            height: 49px;
+          }
+        }
+
+        .discord, .twitter {
+          font-size: 17px;
+        }
+
+        .discord {
+          display: none;
+        }
+
+        .twitter {
+          display: none;
+        }
+      }
+
+      .eagle-container {
+        top: 20px;
+        right: 0;
+        width: 170px;
+        height: 575px;
+        padding: 0;
+
+        .eagle {
+          max-width: 260%;
+        }
+      }
+    }
+
+    footer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: 296px;
+
+      .footer-social {
+        display: block;
+        white-space: nowrap;
+        padding: 4px 4px 0;
+        margin-top: 22px;
+
+        .social__item {
+          margin-right: 30px;
+          cursor: pointer;
+
+          &:last-child {
+            margin: 0;
+          }
+        }
+      }
+
+      .footer-deep-mine {
+        display: none;
+      }
+    }
+
+    .light-circles-container {
+      .blue-circle {
+        width: 200px;
+        height: 200px;
+      }
+
+      .blue-ellipse {
+        right: -500px;
+        top: -100px;
+      }
+
+      .red-circle {
+        right: -500px;
+      }
+    }
+
+    .light-lines-container {
+      .big-red-line {
+        position: absolute;
+        right: -20px;
+        top: 250px;
+        height: 300px;
+        z-index: 5;
+      }
+
+      .big-blue-line {
+        top: 170px;
+        right: -240px;
+      }
+    }
+
+    .tooltip {
+      width: 198px;
+      height: 39px;
+      line-height: 20px;
+      padding: 10px 30px;
+    }
+  }
+}
+
+
+

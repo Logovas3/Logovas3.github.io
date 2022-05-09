@@ -1,0 +1,37 @@
+//-------------
+//Functions
+//-------------
+@function breakpoint($name) {
+  @return map_get($breakpoints, $name);
+}
+//-------------
+//Colors
+//-------------
+$menu-color-active: #ffffff;
+$menu-color: #6d7075;
+$burger-menu-background: #020305;
+$timer-first-color: #75787a;
+$timer-second-color: #54ca91;
+$main-info-color: #ffffff;
+$actions-color-active: #cbcfd2;
+$actions-color: #ffffff;
+$actions-button-border-color: #dedede;
+$actions-adopt-button-border-color: #d2d9df;
+$actions-adopt-button-background-color: #000000;
+$tooltip-color: #000000;
+$tooltip-background-color: #ffffff;
+//-------------
+//Breakpoints
+//-------------
+$breakpoints: (
+        xs-start: 0px,
+        xs-end:   319px,
+        sm-start: 320px,
+        sm-end:   639px,
+        md-start: 640px,
+        md-end:   959px,
+        lg-start: 960px,
+        lg-end:   1239px,
+        xl-start: 1240px,
+        xl-end: 1439px
+);

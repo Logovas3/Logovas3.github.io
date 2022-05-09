@@ -1,0 +1,371 @@
+@media (max-width: 1439px) and (min-width: 960px) {
+  html body header .menu {
+    margin: 0 68px;
+  }
+  html body main {
+    min-width: 916px;
+  }
+  html body main .timer {
+    font-size: 24px;
+  }
+  html body main .header {
+    font-size: 100px;
+  }
+  html body main .header .petobots {
+    width: 493px;
+    height: 78px;
+  }
+  html body main .header .blue-line {
+    top: -80px;
+    left: 170px;
+  }
+  html body main .info .red-line {
+    left: 490px;
+    top: 90px;
+  }
+  html body main .actions .adopt-wrapper {
+    width: 205px;
+    height: 58px;
+    margin-right: 20px;
+  }
+  html body main .actions .adopt-wrapper .adopt {
+    font-size: 16px;
+    width: 205px;
+    height: 58px;
+  }
+  html body main .actions .discord, html body main .actions .twitter {
+    font-size: 16px;
+  }
+  html body main .actions .discord {
+    margin-right: 20px;
+    width: 170px;
+    height: 58px;
+  }
+  html body main .actions .discord img {
+    width: 23px;
+    height: 16px;
+  }
+  html body main .actions .twitter {
+    width: 158px;
+    height: 58px;
+  }
+  html body main .actions .twitter img {
+    width: 19px;
+    height: 16px;
+  }
+  html body main .eagle-container {
+    top: -100px;
+    right: 0;
+    width: 380px;
+    height: 850px;
+    padding: 0 0 50px 0;
+  }
+  html body main .eagle-container .eagle {
+    max-width: 165%;
+  }
+  html body footer {
+    min-width: 916px;
+  }
+  html body footer .footer-deep-mine {
+    width: 80px;
+    height: 77px;
+    margin-top: 38px;
+  }
+  html body .light-circles-container .blue-ellipse {
+    right: -180px;
+    top: -100px;
+  }
+  html body .light-lines-container .big-red-line {
+    position: absolute;
+    right: -30px;
+    top: 190px;
+  }
+  html body .light-lines-container .big-blue-line {
+    top: 110px;
+    right: 245px;
+  }
+}
+@media (max-width: 959px) and (min-width: 639px) {
+  html body header {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  html body header .logo {
+    padding: 4px;
+  }
+  html body header .logo img {
+    min-width: 208px;
+  }
+  html body header .menu {
+    margin: 33px 0 0 0;
+  }
+  html body header .social {
+    display: none;
+  }
+  html body main {
+    min-width: 600px;
+  }
+  html body main .timer {
+    font-size: 20px;
+  }
+  html body main .header .petobots {
+    width: 395px;
+    height: 63px;
+  }
+  html body main .header .blue-line {
+    top: -80px;
+    left: 110px;
+  }
+  html body main .info {
+    font-size: 16px;
+  }
+  html body main .info .red-line {
+    left: 365px;
+    top: 210px;
+  }
+  html body main .actions {
+    margin-top: 186px;
+  }
+  html body main .actions .adopt-wrapper {
+    width: 216px;
+    height: 60px;
+    margin-right: 21px;
+  }
+  html body main .actions .adopt-wrapper .adopt {
+    font-size: 17px;
+    width: 218px;
+    height: 62px;
+  }
+  html body main .actions .discord, html body main .actions .twitter {
+    font-size: 17px;
+  }
+  html body main .actions .discord {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    margin-right: 21px;
+    width: 182px;
+    height: 62px;
+  }
+  html body main .actions .discord img {
+    width: 23px;
+    height: 16px;
+  }
+  html body main .actions .twitter {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    width: 169px;
+    height: 62px;
+  }
+  html body main .actions .twitter img {
+    width: 19px;
+    height: 16px;
+  }
+  html body main .eagle-container {
+    overflow: hidden;
+    top: -50px;
+    right: 0;
+    width: 230px;
+    height: 900px;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+  }
+  html body main .eagle-container .eagle {
+    max-width: 300%;
+  }
+  html body footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 600px;
+  }
+  html body footer .footer-social {
+    display: block;
+    white-space: nowrap;
+    padding: 4px 4px 0;
+  }
+  html body footer .footer-social .social__item {
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  html body footer .footer-social .social__item:last-child {
+    margin: 0;
+  }
+  html body footer .footer-deep-mine {
+    width: 84px;
+    height: 81px;
+    margin: 62px 0 32px 0;
+  }
+  html body .light-circles-container .blue-ellipse {
+    right: -400px;
+    top: -150px;
+  }
+  html body .light-circles-container .red-circle {
+    right: -500px;
+  }
+  html body .light-circles-container .blue-circle {
+    display: none;
+  }
+  html body .light-lines-container .big-red-line {
+    position: absolute;
+    right: -110px;
+    top: 220px;
+  }
+  html body .light-lines-container .big-blue-line {
+    top: 170px;
+    right: -200px;
+  }
+}
+@media (max-width: 639px) and (min-width: 0px) {
+  html body header {
+    flex-direction: row;
+    margin-top: 21px;
+  }
+  html body header .logo {
+    order: 2;
+    padding: 4px 4px 0;
+    margin: 0 50px;
+  }
+  html body header .logo img {
+    max-width: 107px;
+  }
+  html body header .menu {
+    order: 1;
+    margin: 0;
+  }
+  html body header .menu .menu__list {
+    display: none;
+  }
+  html body header .burger-menu #burger-menu__img {
+    display: block;
+  }
+  html body header .social {
+    display: none;
+  }
+  html body header .deep-mine {
+    order: 3;
+    display: block;
+  }
+  html body main {
+    min-width: 296px;
+    margin-top: 93px;
+  }
+  html body main .timer {
+    font-size: 14px;
+    min-width: 305px;
+  }
+  html body main .header {
+    font-size: 60px;
+    margin-bottom: 210px;
+  }
+  html body main .header .petobots {
+    width: 296px;
+    height: 47px;
+  }
+  html body main .header .blue-line {
+    top: -55px;
+    left: -50px;
+  }
+  html body main .info {
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  html body main .info .eyes {
+    display: none;
+  }
+  html body main .info .info__text {
+    text-align: center;
+  }
+  html body main .info .red-line {
+    left: 225px;
+    top: 140px;
+    width: 80px;
+  }
+  html body main .actions {
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+  }
+  html body main .actions .adopt-wrapper {
+    width: 171px;
+    height: 47px;
+    margin-right: 0;
+  }
+  html body main .actions .adopt-wrapper .adopt {
+    font-size: 16px;
+    width: 173px;
+    height: 49px;
+  }
+  html body main .actions .discord, html body main .actions .twitter {
+    font-size: 17px;
+  }
+  html body main .actions .discord {
+    display: none;
+  }
+  html body main .actions .twitter {
+    display: none;
+  }
+  html body main .eagle-container {
+    top: 20px;
+    right: 0;
+    width: 170px;
+    height: 575px;
+    padding: 0;
+  }
+  html body main .eagle-container .eagle {
+    max-width: 260%;
+  }
+  html body footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 296px;
+  }
+  html body footer .footer-social {
+    display: block;
+    white-space: nowrap;
+    padding: 4px 4px 0;
+    margin-top: 22px;
+  }
+  html body footer .footer-social .social__item {
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  html body footer .footer-social .social__item:last-child {
+    margin: 0;
+  }
+  html body footer .footer-deep-mine {
+    display: none;
+  }
+  html body .light-circles-container .blue-circle {
+    width: 200px;
+    height: 200px;
+  }
+  html body .light-circles-container .blue-ellipse {
+    right: -500px;
+    top: -100px;
+  }
+  html body .light-circles-container .red-circle {
+    right: -500px;
+  }
+  html body .light-lines-container .big-red-line {
+    position: absolute;
+    right: -20px;
+    top: 250px;
+    height: 300px;
+    z-index: 5;
+  }
+  html body .light-lines-container .big-blue-line {
+    top: 170px;
+    right: -240px;
+  }
+  html body .tooltip {
+    width: 198px;
+    height: 39px;
+    line-height: 20px;
+    padding: 10px 30px;
+  }
+}
+
+/*# sourceMappingURL=common-resize.css.map */
